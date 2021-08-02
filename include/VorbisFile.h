@@ -9,6 +9,11 @@
 
 typedef struct VorbisFile VorbisFile;
 
+typedef enum VorbisFile_err {
+	VORBIS_FILE_NO_ERROR,
+	VORBIS_FILE_UNSUPPORTED_CHANNEL_COUNT
+} VorbisFile_err;
+
 VorbisFile * VorbisFile_open(const char *path);
 
 int VorbisFile_getALFormat(const VorbisFile *info);
