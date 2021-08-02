@@ -1,5 +1,5 @@
-#ifndef AUDIO_H_
-#define AUDIO_H_
+#ifndef AE_AUDIO_H_
+#define AE_AUDIO_H_
 
 #include <AL/alc.h>
 

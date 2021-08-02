@@ -1,5 +1,5 @@
-#ifndef VORBIS_FILE_H_
-#define VORBIS_FILE_H_
+#ifndef AE_VORBIS_FILE_H_
+#define AE_VORBIS_FILE_H_
 
 #ifndef STB_VORBIS_HEADER_ONLY
 	#define STB_VORBIS_HEADER_ONLY
